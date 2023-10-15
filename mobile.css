@@ -1,0 +1,52 @@
+body{
+    background: #C0C0C0;
+    height: 1000px;
+}
+
+#navi{
+
+    background-color: aqua;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  border-radius: 10px;
+  position: fixed;
+  align-items: center;
+  left: 1px;
+  display: none;
+}
+
+#navi h3{
+    font-size: 13px;
+cursor: pointer;
+opacity: 70%;
+}
+#navi h3:hover{background-color:#757575;
+    color: white;
+    opacity: 100%;}
+
+    #o-c-btn{
+position: absolute;
+top: 42px;
+position: fixed;
+    }
+    #o-c-btn button{
+        margin: 0 4px;
+        cursor: pointer;
+border-radius: 10px;
+background-color:aquamarine;
+transition: 0.3s;
+
+    }
+    #o-c-btn button:hover{
+        transform: scale(1.1);
+        background: grey;
+        color: white;
+    }
+    #close{
+        position: relative;
+        left: 100px;
+        display: none;
+    }
